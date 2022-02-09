@@ -1,0 +1,48 @@
+.movie-content{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 7.5vw;
+}
+.movie-card{
+  cursor: pointer;
+  width: 23.5%;
+  margin-right: 2%;
+
+}
+.movie-card:nth-child(4n){
+  margin-right: 0%;
+}
+.movie-card img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.wrapper{
+  padding:0 7.5vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7.5vw;
+  height: 60px;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.flex-1{
+  flex:1;
+}
+
