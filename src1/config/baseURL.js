@@ -1,1 +1,0 @@
-export const BaseURL = 'https://yts.mx/api/v2/';

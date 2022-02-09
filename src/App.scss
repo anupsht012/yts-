@@ -22,6 +22,7 @@
 
 .wrapper{
   padding:0 7.5vw;
+
 }
 
 nav {
@@ -46,3 +47,27 @@ nav {
   flex:1;
 }
 
+
+.movie-detail.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.movie-detail.wrapper p{
+
+  width:60%;
+}
+
+.movie-detail.wrapper img{
+  height: 350px;
+}
+
+.rating{
+  display: inline-flex;
+  align-items: center;
+  & *{
+    margin: 0 10px;
+  }
+}
